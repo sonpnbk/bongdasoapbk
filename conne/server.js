@@ -5,7 +5,7 @@ var dudoantrandau = require("./../controllers/dudoantrandau");
 var trandau = require("./../controllers/trandau");
 var app = require("express")();
 
-http.createServer(app).listen(9000);
+http.createServer(app).listen(process.env.PORT || 9000);
 app.get("/token=" + setting.token + "/user", function (req, resp) {
     user.getListUser(req, resp);
 });
