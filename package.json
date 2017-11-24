@@ -1,0 +1,13 @@
+{
+  "name": "bongdanodejs",
+  "version": "0.0.1",
+  "description": "bongdanodejs",
+  "main": "app.js",
+  "author": {
+    "name": "pham"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mssql-tedious-1-11-4": "^2.2.1"
+  }
+}
